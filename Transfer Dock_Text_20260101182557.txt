@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Seva – Trusted Local Services Across India</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
+        header { background:#007BFF; color:white; padding:20px; text-align:center; }
+        header h1 { margin:0; font-size:2em; }
+        header p { margin:5px 0 0 0; font-size:1em; }
+        main { padding:20px; max-width:800px; margin:0 auto; }
+        section { margin-bottom:30px; }
+        h2 { font-size:1.8em; margin-bottom:10px; }
+        p { line-height:1.5; margin-bottom:15px; }
+        .services { display:flex; flex-wrap:wrap; gap:20px; }
+        .service { flex:1 1 200px; background:#e2e6ea; padding:15px; border-radius:5px; text-align:center; }
+        .contact { background:#e2e6ea; padding:15px; border-radius:5px; text-align:center; }
+        footer { background:#333; color:white; text-align:center; padding:15px; }
+        a { color:#007BFF; text-decoration:none; }
+        @media(max-width:600px) { .services { flex-direction:column; } }
+        .cta-button { display:inline-block; margin-top:10px; padding:10px 15px; background:#25D366; color:white; border-radius:5px; text-decoration:none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Local Seva</h1>
+    <p>Trusted Local Services Across India</p>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Find Trusted Local Service Providers Near You</h2>
+        <p>AC Repair, Electrician & Plumber services in your city — fast, reliable and affordable.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>AC Repair</h3>
+                <p>AC gas filling, installation, and maintenance.</p>
+                <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20want%20AC%20Repair%20service" target="_blank" class="cta-button">WhatsApp</a>
+            </div>
+            <div class="service">
+                <h3>Electrician</h3>
+                <p>Home and shop wiring, switch & fan repair.</p>
+                <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20want%20Electrician%20service" target="_blank" class="cta-button">WhatsApp</a>
+            </div>
+            <div class="service">
+                <h3>Plumber</h3>
+                <p>Pipe leakage, bathroom fittings, water system repair.</p>
+                <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20want%20Plumber%20service" target="_blank" class="cta-button">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:localseva24@gmail.com">localseva24@gmail.com</a></p>
+        <p>Fast, reliable, and trusted local services across India.</p>
+    </section>
+</main>
+
+<footer>
+    <p>Local Seva – Trusted Local Services Across India</p>
+    <p>📧 Email: <a href="mailto:localseva24@gmail.com" style="color:white;">localseva24@gmail.com</a></p>
+    <p>© 2026 Local Seva. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
